@@ -72,27 +72,21 @@ if (match(testVar1, testVar2)) {
     logMismatch(testVar1, testVar2);
 }
 
-//the second if statement checks the third and fourth variables
-if (match(testVar3, testVar4)) {
-    logMatch(testVar3, testVar4);
-} else {
-    logMismatch(testVar3, testVar4);
-}
-
-//the third if statement checks the fifth and sixth variables
-if (match(testVar5, testVar6)) {
-    logMatch(testVar5, testVar6);
-} else {
-    logMismatch(testVar5, testVar6);
-}
-
 // test variable
 
 
 
 
 // for loop
-console.log("-- Displaying for loop --");
+var testVar2 = i;
+for (var i = 1; i < 10; i++){
+if (match(testVar1, testVar2)) {
+    logMatch(testVar1, testVar2);
+} else {
+    logMismatch(testVar1, testVar2);
+}
+} 
+console.log(i);
 
 
 
