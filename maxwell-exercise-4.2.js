@@ -1,4 +1,4 @@
-var header = require('../header.js');
+// var header = require('../header.js');
 
 /*
  Expected output:
@@ -16,15 +16,19 @@ var header = require('../header.js');
 
 // start program
 
-
+// Declare an array of fruits and assign it to the variable fruits
+var fruits = ["Apple", "Orange", "Banana", "Mango", "Pear"];
 
 // function
-function getFruit() {
+function getFruit(arr) {
+ for (var k = 0; k < arr.length; k++) {
+  console.log(arr[k]);
+ }
 }
 
 
 // Output from the getFruit() function
-
+getFruit(fruits);
 
 
 
