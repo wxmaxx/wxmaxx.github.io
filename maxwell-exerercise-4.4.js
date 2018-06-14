@@ -33,9 +33,9 @@ var states = ["Alabama", "Nebraska", "Iowa", "California", "Nevada"];
 // functions
 // getValue function uses for loop to get array values the uses if statement to compare values
 function getValue(states, val) {
- for (var k = 0; k < arr.length; k++) {
-   if (states[k] === val)
-     console.log(states[k]);
+ for (var i = 0; i < states.length; i++) {
+   if (states[i] === val)
+     console.log(states[i]);
  }
 
 }
@@ -44,13 +44,19 @@ function getValue(states, val) {
 // Output
 // display the original unsorted array by looping through the array and logging the output
 console.log("--DISPLAYING ORIGINAL UNSORTED ARRAY--");
-for (var y = 0; y < states.length; y++)
-console.log(states[y]);
+for (var k = 0; k < states.length; k++)
+console.log(states[k]);
 
 // new line
 console.log("");
 
-//
+// display the sorted array using the filter() method
+var sortedList = sorted;
+.filter(getValue(states, val)) {
+  return sorted.lastIndexOf(states) === index;
+ console.log(sorted);
+})
+
 
 
 
