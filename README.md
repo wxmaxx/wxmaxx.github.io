@@ -1,2 +1,5 @@
 # wxmaxx.github.io
-Repository that will be used for WEB 200
+# Contributors
+Professor Richard Krasso - Bellevue University
+Leon Maxwell - Bellevue University
+Repository for web site developed in web 330
