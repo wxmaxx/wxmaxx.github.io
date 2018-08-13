@@ -1,5 +1,5 @@
 # wxmaxx.github.io
+<p>Repository for web site developed in web 330</p>
 # Contributors
-Professor Richard Krasso - Bellevue University
-Leon Maxwell - Bellevue University
-Repository for web site developed in web 330
+<p>Professor Richard Krasso - Bellevue University</p>
+<p>Leon Maxwell - Bellevue University</p>
