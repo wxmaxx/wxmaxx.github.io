@@ -1,3 +1,20 @@
+/* Site colors: #f17208 (orange), #260D06 (dark brown), #641F11 (burnt orange), #DD9622 (yellow/orange), #45200B (brown) */
+
+body {
+  background-color: rgb(243, 235, 225);
+}
+
 h1 {
-  color: blue;
+  color: #260D06;
+}
+
+/* id attributes */
+#navigation {
+  align-items: flex-end;
+}
+
+/* class attributes */
+.btn {
+  background-color: #f17208;
+  border: #260D06
 }
