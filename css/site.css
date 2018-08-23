@@ -8,13 +8,28 @@ h1 {
   color: #260D06;
 }
 
-/* id attributes */
-#navigation {
-  align-items: flex-end;
-}
+body {
+      position: relative; 
+  }
 
-/* class attributes */
-.btn {
-  background-color: #f17208;
-  border: #260D06
-}
+.navbar {
+  height:80px;
+  }
+
+  #intro {
+	padding-top:100px;
+	height:700px;color: #fff;
+	background-color: #1E88E5;
+  }
+
+  #strengths {
+	padding-top:50px;
+	height:700px;color: #fff;
+	background-color: #673ab7;
+  }
+
+  #projects {
+	padding-top:50px;
+	height:700px;color: #fff;
+	background-color: #ff9800;
+  }
