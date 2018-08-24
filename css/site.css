@@ -1,7 +1,7 @@
 /* Site colors: #f17208 (orange), #260D06 (dark brown), #641F11 (burnt orange), #DD9622 (yellow/orange), #45200B (brown) */
 
 body {
-  background-color: rgb(243, 235, 225);
+  font-size: 16px;
 }
 
 h1 {
@@ -12,24 +12,58 @@ body {
       position: relative; 
   }
 
+  a {
+    text-decoration: none;
+  }
+
+
 .navbar {
   height:80px;
+  background-color: #260d06;
   }
 
-  #intro {
-	padding-top:100px;
-	height:700px;color: #fff;
-	background-color: #1E88E5;
+  .nav {
+    font-size: 1.5em;
+    text-decoration: none;
+
   }
 
-  #strengths {
-	padding-top:50px;
-	height:700px;color: #fff;
-	background-color: #673ab7;
-  }
+.caption{
+  font-style: oblique;
+  align-self: auto;
+}
 
-  #projects {
-	padding-top:50px;
-	height:700px;color: #fff;
-	background-color: #ff9800;
-  }
+.center {
+  text-align: center;
+}
+
+.imgContainer {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  float: none;
+  font-size: 1.4em;
+  /* border: 1px solid #f17208; */
+}
+
+#job {
+  padding-left: initial;
+}
+
+#intro {
+padding-top: 100px;
+height:900px;
+color: #260d06;
+}
+
+#strengths {
+padding-top: 50px;
+height:900px;
+color: #fff;
+}
+
+#projects {
+padding-top: 50px;
+height:900px;
+color: #fff;
+}
