@@ -1,3 +1,13 @@
+<!--
+  Credits:
+  A lot of my layout and nav bar functionality was inspired from the following bootstrap location:
+  https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h
+
+  I also used the site located in the footer of the document to create the Web Doctor graphic
+
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -20,6 +30,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <link rel="stylesheet" type="text/css" href="css/site.css">
+  <script type="text/javascript" src="javascript/site.js"></script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -34,7 +45,7 @@
               <span class="icon-bar"></span>   
           </button>
           <a class="navbar-image">
-          <img src="images/web-logo.png" alt="Web logo" />
+          <img src="images/web-logo-small.png" alt="The Web Doctor logo" />
           </a>
         </div>
       <div>
@@ -52,65 +63,94 @@
        
                   
 <section>
+  <!-- This section will have the jumbotron, which will be the introduction and the call to action -->
   <div class="jumbotron container-fluid" id="intro">
-    <h2 class="center">Hi! My name is Leon</h2>
-    <h1 class="center">I am passionate about helping individuals establish and expand thier online presence!</h1>
-      <div class="center row col-lg-12">
-        <img src="images/job2.svg" alt="Man digging a hole" id="job" height="500" width="400" />  
-      </div> 
+    <h2 class="center">Hi! My name is Leon,</h2>
+    <h2 class="center">I am passionate about helping individuals establish and expand their online presence!</h2>
+    <h2 class="center">I provide affordable web development options.</h2>
+    <!-- <div class="center">
+    <p id="proj">Check Out My Work</p>
+    </div> -->
+    <div class="center" id="jumboImg">
+      <img src="images/callout.svg" class="img-rounded" alt="Image showing a person connecting to web technologies" id="callout"/>  
+    </div>      
   </div>
+  
 </section>
 
-<section>
+<section class="pageHead">
   <div class="container-fluid" id="strengths">
-    <h1 class="center">strengths</h1>
+    <h1 class="center">Web Development Focus Areas</h1>
   </div>
-
 </section>
+
+<Section id="skills">
+    <!-- This container will have one row with two separate columns -->
+  <div class="container-fluid">
+    <div class="row container-fluid">
+      <div class="col-md-6 center">
+        <h2 class="heading">Web Structure and Design</h2>
+        <p class="point">Mobile first design; looks great on all devices</p>
+        <p class="point">Responsive layout for all device sizes</p>
+        <p class="point">Content works in all browsers, cross-platform</p>
+        <p class="point">You are crucial to the design process!</p>
+      </div>
+      <div class="col-md-6 center">
+          <h2 class="heading">Web Development Tools & Techniques</h2>
+          <p class="point">One language used for all code</p>
+          <p class="point">Integrate best practices into design</p>
+          <p class="point">Uses the most current technologies</p>
+          <p class="point">Focus on security</p>
+      </div>
+    </div>
+  </div>
+</Section>
 
 <section class="container-fluid center" id="projects">
+<!-- This section will display my four projects in one row with four columns (col-med-3) -->
+
   <div>
     <h1 class="center">Recent Projects</h1>
     <div class="row1">
       <div class="col-md-3">
-        <div class="imgContainer">
-          <a href="https://wxmaxx.github.io/index.html" target="_blank">
+        <div class="imgContainer">         
             <img class="img-responsive img-rounded" src="images/me.jpg" alt="Picture of Leon on the ferry from Seattle Washington." />
             <div class="caption">
-              <p>Link to my Bio, which you are viewing now!</p>
+              <a href="https://wxmaxx.github.io/index.html" target="_blank">
+                <p>Link to my Bio, which you are viewing now!</p>
+              </a>
             </div>
-          </a>
-        </div>
+         </div>
       </div>
       <div class="col-md-3">
-        <div class="imgContainer">
-          <a href="https://wxmaxx.github.io/bioSite/index.html" target="_blank">
-            <img class="img-responsive img-rounded" src="images/liam1.jpg" alt="Picture of Liam standing next to the car after parking in the grass." />
+        <div class="imgContainer">          
+            <img class="img-responsive img-rounded" src="images/liam1.jpg" alt="Picture of Liam standing next to the car after parking in the grass, so proud." />
             <div class="caption">
-              <p>Liam's first parking job...so proud!.</p>
-            </div>
-          </a>
+              <a href="https://wxmaxx.github.io/bioSite/index.html" target="_blank">
+                <p>Liam's Artistic Portfolio.</p>
+              </a>
+            </div>         
         </div>
       </div>
       
    <div class="col-md-3">
-      <div class="imgContainer">
-        <a href="https://github.com/wxmaxx/web-330" target="_blank">
+      <div class="imgContainer">        
           <img class="img-responsive img-rounded" src="images/javascript.png" alt="Image of JavaScript" />
           <div class="caption">
-            <p>Leon's JavaScript repository.</p>
-          </div>
-        </a>
+            <a href="https://github.com/wxmaxx/web-330" target="_blank">
+              <p>Leon's JavaScript repository.</p>
+            </a>
+          </div>      
       </div>
     </div>
       <div class="col-md-3">
-        <div class="imgContainer">
-          <a href="https://github.com/wxmaxx/web-231" target="_blank">
+        <div class="imgContainer">          
             <img class="img-responsive img-rounded" src="images/web-230.jpg" alt="Image of HTML5, CSS, and JavaScript" />
             <div class="caption">
-              <p>Initial JavaScript repository.</p>
-            </div>
-          </a>
+              <a href="https://github.com/wxmaxx/web-231" target="_blank">
+                <p>Initial JavaScript repository.</p>
+              </a>
+            </div>         
         </div>
       </div>
     </div>
@@ -118,13 +158,15 @@
 </section>
    
         
-        
+<section class="container-fluid" id="footer">       
 <footer>
-    <a href="http://cooltext.com" target="_top"><img src="https://cooltext.com/images/ct_pixel.gif" width="80" height="15" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
+    <p>Created by: Leon Maxwell</p>
+    <p>Contact information: <a href="mailto:lemaxwell@my365.bellevue.edu">
+    lemaxwell@my365.bellevue.edu</a>.</p>
+    <a href="http://cooltext.com" target="_blank"><img src="https://cooltext.com/images/ct_pixel.gif" width="120" height="50" alt="Cool Text: Logo and Graphics Generator" border="0" /></a>
 </footer>
+</section> 
 
-<!--https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_scrollspy&stacked=h
-https://www.vecteezy.com/signs-symbols/30176-need-a-job-->
 
 </body>
 </html>

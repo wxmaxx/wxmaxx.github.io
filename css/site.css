@@ -1,4 +1,4 @@
-/* Site colors: #f17208 (orange), #260D06 (dark brown), #641F11 (burnt orange), #DD9622 (yellow/orange), #45200B (brown) */
+/* Site colors: #f17208-rgb 241,114,8 (orange) , #260D06 (dark brown), #641F11-rgb 100,31,17 (burnt orange), #DD9622 (yellow/orange), #45200B (brown) */
 
 body {
   font-size: 16px;
@@ -14,11 +14,20 @@ body {
 
   a {
     text-decoration: none;
+    color: #260d06;    
   }
 
+.btn-primary {
+    padding: 10px;
+  }
 
+footer {
+  display: block;
+}
+
+ /* Class styling */
 .navbar {
-  height:80px;
+  height:75px;
   background-color: #260d06;
   }
 
@@ -37,33 +46,59 @@ body {
   text-align: center;
 }
 
+.pageHead {
+  font-weight: bold;
+  padding-bottom: 75px;
+}
+
 .imgContainer {
+  padding-top: 50px;
+  /* padding-bottom: 400px; */
   margin-left: auto;
   margin-right: auto;
   max-width: 400px;
   float: none;
   font-size: 1.4em;
-  /* border: 1px solid #f17208; */
 }
 
-#job {
-  padding-left: initial;
+.point {
+  font-size: 1.3em;
+  text-align: left;
+  padding-left: 100px;
+}
+
+
+/* ID styling */
+#callout {
+  padding-top: 100px;
+  max-width: 700px;
+  min-width: 300px; 
+}
+
+#jumboImage {
+  image-orientation: initial;
 }
 
 #intro {
 padding-top: 100px;
-height:900px;
 color: #260d06;
 }
 
 #strengths {
 padding-top: 50px;
-height:900px;
 color: #fff;
+}
+
+#skills {
+  padding-bottom: 500px;
 }
 
 #projects {
 padding-top: 50px;
-height:900px;
-color: #fff;
+padding-bottom: 400px;
+}
+
+#footer {
+  padding-top: 10px;
+  background-color: #DD9622;
 }
